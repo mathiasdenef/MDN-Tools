@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'auto',
-    loadChildren: () => import('./modules/auto-werkelijke-kost/auto-werkelijke-kost.module').then(m => m.AutoWerkelijkeKostModule)
+    path: 'calculation',
+    loadChildren: () => import('./modules/calculation/calculation.module').then(m => m.CalculationModule)
   }
 ];
 

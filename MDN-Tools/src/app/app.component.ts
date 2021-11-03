@@ -19,9 +19,9 @@ export class AppComponent {
         // icon: 'pi pi-home'
       },
       {
-        label: 'Auto',
+        label: 'Calculations',
         items: [
-          { label: 'Werkelijke kost', routerLink: ['auto'] },
+          { label: 'Werkelijke kost auto', routerLink: ['calculation', 'werkelijke-kost-auto'] },
           // { label: 'Quit' }
         ]
       }
